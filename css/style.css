@@ -18,12 +18,10 @@ em, dfn, i {
 }
 /* ================= General tags ================= */
 body {
-	color: #FFFF33;
+	font: 12px/1.7 Helvetica, Arial, Tahoma, sans-serif;
+	color:#666666;
 	-webkit-font-smoothing: antialiased;
-	backgorund: #f6f4e7;
-	font-family: Helvetica, Arial, Tahoma, sans-serif;
-	font-size: 12px;
-	line-height: 1.7;
+	backgorund:#f6f4e7;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: Helvetica, Arial, Tahoma, sans-serif;
@@ -1371,25 +1369,25 @@ p + hr {
 	padding:0 5px;
 }
 .filter a {
-	color: #000000;
+	color: #b3b3b3;
 	display: inline-block;
-	padding: 2px 10px;
-	font-size: 36px;
-	font-family: Helvetica, Arial, sans-serif;
+	padding:2px 10px;
+	font-size:12px;
+	font-family:Helvetica, Arial, sans-serif;
 }
 .filter a:hover {
 	color:#de5853;
 	text-decoration:none;
 }
 .filter a.selected {
-	color: #262626;
+	color:#262626;
 	background: -moz-linear-gradient( top, #88b272 0%, #7fab68 50%, #6c9b55);
 	background: -webkit-gradient( linear, left top, left bottom, from(#88b272), color-stop(0.50, #7fab68), to(#6c9b55));
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-	padding: 2px 10px;
-	color: #000;
+	padding:2px 10px;
+	color:#fff;
 }
 .portfolio_button_left {
 	float:left;
@@ -2360,7 +2358,7 @@ a:hover.button.orange {
 a.button.green {
 	background-image: url(../images/button_green.png);
 	border: 1px solid #adc671;
-	color: #000000;
+	color: #5d7731;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 a.button.large.green {
